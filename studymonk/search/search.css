@@ -1,0 +1,132 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.search-form {
+    margin-bottom: 20px;
+  }
+  
+  #candidate-list {
+    margin-top: 20px;
+  }
+  
+  .candidate-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #search-btn
+  {
+      height:50px;
+      width:150px;
+      background-color:rgb(74, 50, 50);
+      color:white;
+      font-size:20px;
+      border-radius: 12px;
+      margin-top:10px;
+      cursor:pointer;
+  }
+  
+  #candidate-list
+  {
+    color:white;
+    font-size:30px;
+  }
+  
+  
+  .candidate-item h3 {
+    margin: 0;
+  }
+  
+  .candidate-item p {
+    margin: 5px 0;
+  }
+  .list1
+  {
+    display: flex;
+    flex-direction: row;
+    height:80px;
+   width:300px;
+    margin-bottom:200px;
+    border-radius:10px;
+    background-color:silver;
+    
+  }
+  .list1:hover
+  {
+    background-color:rgb(114, 65, 65);
+    cursor:pointer;
+  }
+  .head
+  {
+    display: flex;
+    flex-direction: row;
+    background-color:burlywood;
+    color:white;
+    
+  }
+  #iconimage
+  { 
+     
+     color:red;
+     border-radius: 20px;
+     background-size: cover;
+     font-size:20px;
+     
+    
+  }
+  #wings
+  {
+    width:10%;
+    height:50px;
+  }
+  
+  #image1
+  {
+    border-radius: 30px;
+    width:50px;
+    height:50px;
+
+  }
+  #main
+  {
+    background-image: url('search5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .search-form label
+  {
+    color:silver;
+    font-size: 30px;
+    
+  }
+  .search-form input
+  {
+    height:30px;
+    border-radius: 10px;
+    font-size:20px;
+    border-color:brown;
+    
+  }
+  .fill1,.fill2,.fill3
+  {
+    display: flex;
+    flex-direction: column;
+    
+    
+   margin-left:100px;
+   margin-bottom: 100px;
+  }
+  .list 
+  {
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+    
+  }
+  
+  
+ 
